@@ -9,3 +9,8 @@
     state: latest
   tags:
     - vault
+
+- name: Install unzip
+  apt: name=unzip
+  tags:
+    - vault
